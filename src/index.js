@@ -3,14 +3,13 @@ import ReactDOM from 'react-dom';
 import {Button,Form,Row,Col} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 
+//ToDo App
 class TodoApp extends React.Component {
   constructor(props) {
     super(props);
     this.state = { items: [], text: '' };
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
-
-
   }
 
   render() {
